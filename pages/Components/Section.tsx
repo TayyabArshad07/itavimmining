@@ -1,13 +1,15 @@
 import PageScroller from "react-page-scroller";
 import React from "react";
+import Layout from "./Layout";
+import HomeSection from "./AllSections/HomeSection";
+import AboutSection from "./AllSections/AboutSection";
+import Header from "./Header";
 
 const Section = () => {
   return (
     <PageScroller>
-      <div className="bg-[#ff0000] h-screen">Section 1</div>
-      <div className="bg-[#ff00ff] h-screen">Section 2</div>
-      <div className="bg-[#00ffff] h-screen">Section 3</div>
-      <div className="bg-[#00ff00] h-screen">Section 4</div>
+      <HomeSection />
+      <AboutSection />
     </PageScroller>
   );
 };

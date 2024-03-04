@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap');
+
+*{
+    @apply m-0 p-0 box-border;
+}
+.Home-Section{
+    @apply h-screen bg-no-repeat bg-cover pt-[5%] flex justify-around gap-[20%] items-center;
+    background-image: url("../public/img/BackgroundImage-1.jpg");
+}
+.About-Section{
+    @apply h-screen bg-no-repeat bg-cover text-white px-[8%] pt-[10%];
+    background-image: url("../public/img/BackgroundImage-2.jpg");
+}
