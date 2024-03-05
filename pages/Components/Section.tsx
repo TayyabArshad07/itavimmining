@@ -4,12 +4,14 @@ import Layout from "./Layout";
 import HomeSection from "./AllSections/HomeSection";
 import AboutSection from "./AllSections/AboutSection";
 import Header from "./Header";
+import WWeDoSection from "./AllSections/WWeDoSection";
 
 const Section = () => {
   return (
     <PageScroller>
       <HomeSection />
-      <AboutSection />
+      {/* <AboutSection /> */}
+      <WWeDoSection />
     </PageScroller>
   );
 };

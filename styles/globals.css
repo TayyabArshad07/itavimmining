@@ -2,16 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap");
 
-*{
-    @apply m-0 p-0 box-border;
+* {
+  @apply m-0 p-0 box-border;
 }
-.Home-Section{
-    @apply h-screen bg-no-repeat bg-cover pt-[5%] flex justify-around gap-[20%] items-center;
-    background-image: url("../public/img/BackgroundImage-1.jpg");
+/*  Home-Page  */
+.Home-Section {
+  @apply h-screen bg-no-repeat bg-cover px-[10%] pt-[5%] text-white flex justify-between items-center flex-wrap;
+  background-image: url("../public/img/BackgroundImage-1.jpg");
 }
-.About-Section{
-    @apply h-screen bg-no-repeat bg-cover text-white px-[8%] pt-[10%];
-    background-image: url("../public/img/BackgroundImage-2.jpg");
+.Home-Section .heading {
+  @apply w-[250px] z-[10];
 }
+.Home-Section .heading h2 {
+  @apply text-[68px] leading-[80px] font-extralight;
+}
+.Home-Section .heading p {
+  @apply text-[15px] pt-[17px] font-normal;
+}
+/*  Home-Page  */
+
+
+/*  About-Page  */
+
+/*  About-Section  */
+.About-Section {
+  @apply h-screen w-screen bg-no-repeat bg-cover px-[10%] pt-[10%] text-white relative;
+  background-image: url("../public/img/BackgroundImage-2.jpg");
+}
+.About-Section h2 {
+  @apply text-[68px] font-extralight w-min leading-[70px];
+}
+.About-Section .Second-div {
+  @apply flex gap-10 justify-start items-start;
+}
+.About-Section .Second-div h3{
+    @apply text-[170px] font-thin leading-[150px];
+}
+.About-Section .Second-div p{
+    @apply text-[15px] w-[250px] pt-[17px] leading-7;
+}
+/*  About-Section  */
+.Our-Value-Section{
+    @apply h-screen ;
+}
+.Progress-Bar {
+  @apply bg-white w-[100%] absolute;
+}
+/*  Slider-Nav  */
+.slider-container .Side-Nav {
+  @apply text-right text-white absolute right-[10%] top-[30%] z-[100000];
+}
+.Uper-div {
+  @apply leading-[50px];
+}
+.Uper-div h3 {
+  @apply text-[68px] font-extralight;
+}
+.Uper-div h2 {
+  @apply text-[19px] font-semibold text-[#FFD500] cursor-pointer;
+}
+.Lower-div {
+  @apply leading-[30px] pt-[15%];
+}
+.Lower-div p {
+  @apply cursor-pointer font-medium;
+}
+/*  Slider-Nav  */
+/*  Slider-Section  */
+.slider-container {
+  @apply relative overflow-hidden;
+}
+.slider {
+  @apply flex;
+}
+.slider-content {
+  @apply flex transition-transform duration-700 ease-linear;
+}
+.slider-section {
+  @apply flex items-center justify-center w-screen h-screen;
+}
+.slider-button {
+  @apply absolute top-[50%] translate-y-[-50%] bg-transparent border-none text-white text-[18px] cursor-pointer p-[10px];
+  background-color: rgba(128, 128, 128, 0.2);
+}
+.slider-button.previous {
+  @apply left-[0px];
+}
+.slider-button.next {
+  @apply right-[0px];
+}
+.slider-progress {
+  @apply h-[2px] bg-[#FFD500] transition-all duration-700 ease-linear z-[100];
+}
+/*  Slider-Section  */
+/*  About-Page  */

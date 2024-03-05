@@ -5,9 +5,9 @@ import Logo from "@/public/img/Logo.svg";
 
 const Header = () => {
   return (
-    <header className="flex fixed items-center justify-between w-full px-[8%] py-[5%] bg-none z-[1000]">
+    <header className="flex fixed items-center justify-between w-full px-[10%] py-[5%] bg-none z-[1000000000]">
       <div className="w-full h-full">
-        <Image src={Logo} alt="Logo" />
+        <Image src={Logo} alt="Logo" height={150} width={150}/>
       </div>
       <FaBars  className="text-[30px] text-[#fff]"/>
     </header>
