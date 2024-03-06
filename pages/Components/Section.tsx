@@ -1,17 +1,19 @@
 import PageScroller from "react-page-scroller";
 import React from "react";
 import Layout from "./Layout";
-import HomeSection from "./AllSections/HomeSection";
-import AboutSection from "./AllSections/AboutSection";
+import HomePage from "./AllSections/HomePage";
+import AboutPage from "./AllSections/AboutPage";
 import Header from "./Header";
-import WWeDoSection from "./AllSections/WWeDoSection";
+import WWeDoPage from "./AllSections/WWeDoPage";
+import TeamPage from "./AllSections/TeamPage";
 
 const Section = () => {
   return (
     <PageScroller>
-      <HomeSection />
-      {/* <AboutSection /> */}
-      <WWeDoSection />
+      <HomePage />
+      <AboutPage />
+      <WWeDoPage />
+      <TeamPage />
     </PageScroller>
   );
 };

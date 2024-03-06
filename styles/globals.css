@@ -2,51 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,100&display=swap");
+
 
 * {
   @apply m-0 p-0 box-border;
 }
-/*  Home-Page  */
-.Home-Section {
-  @apply h-screen bg-no-repeat bg-cover px-[10%] pt-[5%] text-white flex justify-between items-center flex-wrap;
-  background-image: url("../public/img/BackgroundImage-1.jpg");
-}
-.Home-Section .heading {
-  @apply w-[250px] z-[10];
-}
-.Home-Section .heading h2 {
-  @apply text-[68px] leading-[80px] font-extralight;
-}
-.Home-Section .heading p {
-  @apply text-[15px] pt-[17px] font-normal;
-}
-/*  Home-Page  */
 
+:root {
+  --Yellow-color: #ffd500;
+  --Background-color: #2b2d31;
+}
 
-/*  About-Page  */
-
-/*  About-Section  */
-.About-Section {
-  @apply h-screen w-screen bg-no-repeat bg-cover px-[10%] pt-[10%] text-white relative;
-  background-image: url("../public/img/BackgroundImage-2.jpg");
-}
-.About-Section h2 {
-  @apply text-[68px] font-extralight w-min leading-[70px];
-}
-.About-Section .Second-div {
-  @apply flex gap-10 justify-start items-start;
-}
-.About-Section .Second-div h3{
-    @apply text-[170px] font-thin leading-[150px];
-}
-.About-Section .Second-div p{
-    @apply text-[15px] w-[250px] pt-[17px] leading-7;
-}
-/*  About-Section  */
-.Our-Value-Section{
-    @apply h-screen ;
-}
+/*  Slider-Section  */
 .Progress-Bar {
   @apply bg-white w-[100%] absolute;
 }
@@ -61,7 +28,7 @@
   @apply text-[68px] font-extralight;
 }
 .Uper-div h2 {
-  @apply text-[19px] font-semibold text-[#FFD500] cursor-pointer;
+  @apply text-[19px] font-semibold text-[var(--Yellow-color)] cursor-pointer;
 }
 .Lower-div {
   @apply leading-[30px] pt-[15%];
@@ -94,7 +61,179 @@
   @apply right-[0px];
 }
 .slider-progress {
-  @apply h-[2px] bg-[#FFD500] transition-all duration-700 ease-linear z-[100];
+  @apply h-[2px] bg-[var(--Yellow-color)] transition-all duration-700 ease-linear z-[100];
 }
 /*  Slider-Section  */
+
+/*  Home-Page  */
+.Home-Section {
+  @apply h-screen bg-no-repeat bg-cover px-[10%] pt-[5%] text-white flex justify-between items-center flex-wrap;
+  background-image: url("../public/img/BackgroundImage-1.jpg");
+}
+.Home-Section .heading {
+  @apply w-[250px] z-[10];
+}
+.Home-Section .heading h2 {
+  @apply text-[68px] leading-[80px] font-extralight;
+}
+.Home-Section .heading p {
+  @apply text-[15px] pt-[17px] font-normal;
+}
+/*  Home-Page  */
+
 /*  About-Page  */
+
+/*  About-Section  */
+.About-Section {
+  @apply h-screen w-screen bg-no-repeat bg-cover px-[10%] pt-[10%] text-white relative;
+  background-image: url("../public/img/BackgroundImage-2.jpg");
+}
+.About-Section h2 {
+  @apply text-[68px] font-extralight w-min leading-[70px];
+}
+.About-Section .Second-div {
+  @apply flex gap-10 justify-start items-start;
+}
+.About-Section .Second-div h3 {
+  @apply text-[170px] font-thin leading-[150px];
+}
+.About-Section .Second-div p {
+  @apply text-[15px] w-[250px] pt-[17px] leading-7;
+}
+/*  About-Section  */
+/*  Our-Value Section  */
+.Our-Value-Section {
+  @apply h-screen w-full flex;
+}
+.Our-Value-Section .Text-Box {
+  @apply bg-[#2B2D31] pl-[8%] leading-[45px] py-[10px] flex items-center;
+}
+.Our-Value-Section .Text-Box p {
+  @apply text-white text-[40px] w-[60%] font-extralight;
+}
+/*  Our-Value Section  */
+/*  Work-Place Section  */
+.Work-Place-Section {
+  @apply h-screen w-full flex;
+}
+.Work-Place-Section .Text-Box {
+  @apply bg-[#2B2D31] pl-[10%] py-[10%] flex flex-col justify-center w-[40%];
+}
+.Work-Place-Section .Text-Box h4 {
+  @apply text-white text-[48px] pt-[15px] w-[70%] font-extralight leading-[60px];
+}
+.Work-Place-Section .Text-Box p {
+  @apply text-white text-[15px] pt-[15px] w-[90%] font-medium leading-[30px];
+}
+/*  Work-Place Section  */
+/*  History-Section  */
+.History-Section {
+  @apply h-screen w-full relative bg-[var(--Background-color)];
+}
+.History-Section .Text-Box {
+  @apply flex flex-col justify-center gap-[20px] h-screen;
+}
+.History-Section .Text-Box .Evolution {
+  @apply flex gap-[5%] px-[10%];
+}
+.History-Section .Image-Div {
+  @apply absolute top-[20%] right-[20%];
+}
+/*  History-Section  */
+
+/*  About-Page  */
+
+/*  What-We-Do Page  */
+/*  WhatWeDo-Section  */
+.WWeDo-Section{
+  @apply h-screen w-screen bg-[#33245d] px-[10%] pt-[10%] text-white relative;
+}
+.WWeDo-Section h2 {
+  @apply text-[68px] font-extralight w-[25%] leading-[70px];
+}
+.WWeDo-Section .Second-div {
+  @apply flex gap-10 justify-start items-start;
+}
+.WWeDo-Section .Second-div h3 {
+  @apply text-[170px] font-thin leading-[150px];
+}
+.WWeDo-Section .Second-div p {
+  @apply text-[15px] w-[250px] pt-[17px] leading-7;
+}
+/*  WhatWeDo-Section  */
+/*  Search Section  */
+.Search-Section{
+  @apply h-screen w-screen bg-[#33245d] px-[10%] pt-[10%] text-white relative;
+}
+.Search-Section .Text-Box{
+  @apply pl-[10%] flex flex-col justify-center w-[40%];
+}
+.Search-Section .Text-Box h4{
+  @apply text-white text-[48px] pt-[15px] w-[70%] font-extralight leading-[60px];
+}
+.Search-Section .Text-Box p{
+  @apply text-white text-[15px] pt-[15px] w-[90%] font-medium leading-[30px];
+}
+/*  Search Section  */
+/*  Display-Search Page  */
+.Display-Search-Section{
+  @apply h-screen w-screen bg-[#33245d] px-[10%] text-white flex items-center gap-[10%];
+}
+.Display-Search-Section .Text-Box{
+  @apply flex flex-col justify-center w-[30%];
+}
+.Display-Search-Section .Text-Box h4{
+  @apply text-white text-[48px] pt-[15px] w-[70%] font-extralight leading-[60px];
+}
+.Display-Search-Section .Text-Box p{
+  @apply text-white text-[15px] pt-[15px] w-[90%] font-medium leading-[30px];
+}
+/*  Display-Search Page  */
+/*  What-We-Do Page  */
+
+/*  Team Page  */
+/* Team-Work Section  */
+.TeamWork-Section{
+  @apply h-screen bg-no-repeat bg-cover w-screen px-[10%] pt-[10%] text-white relative;
+  background-image: url("../public/img/BackgroundImage-1.jpg");
+}
+.TeamWork-Section h2 {
+  @apply text-[68px] font-extralight w-[25%] leading-[70px];
+}
+.TeamWork-Section .Second-div {
+  @apply flex gap-10 justify-start items-start;
+}
+.TeamWork-Section .Second-div h3 {
+  @apply text-[170px] font-thin leading-[150px];
+}
+.TeamWork-Section .Second-div p {
+  @apply text-[15px] w-[250px] pt-[17px] leading-7;
+}
+/* Team-Work Section  */
+/* #37719f */
+.Expert-Team-Section {
+  @apply h-screen w-full flex;
+}
+.Expert-Team-Section .Text-Box {
+  @apply bg-[#37719f] pl-[5%] py-[10%] flex flex-col justify-center w-[50%];
+}
+.Expert-Team-Section .Text-Box h4 {
+  @apply text-white text-[48px] pt-[15px] w-[45%] font-extralight leading-[60px];
+}
+.Expert-Team-Section .Text-Box p {
+  @apply text-white text-[15px] pt-[15px] w-[45%] font-medium leading-[30px];
+}
+
+.Celebrating-Section {
+  @apply h-screen w-full flex relative;
+}
+.Celebrating-Section .Text-Box {
+  @apply bg-[#37719f] pl-[10%] py-[10%] pt-[15%] flex flex-col justify-center w-[40%];
+}
+.Celebrating-Section .Text-Box h4 {
+  @apply text-white text-[48px] pt-[15px] w-[70%] font-extralight leading-[60px];
+}
+.Celebrating-Section .Text-Box p {
+  @apply text-white text-[15px] pt-[15px] w-[80%] font-medium leading-[30px];
+}
+/*  Team Page  */

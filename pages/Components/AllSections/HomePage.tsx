@@ -3,7 +3,7 @@ import Image from "next/image";
 import Layout from "../Layout";
 import Prisma from '@/public/img/prisma-kantoortuin.png'
 
-const HomeSection = () => {
+const HomePage = () => {
   return (
     <section className="Home-Section">
       <div className="heading">
@@ -17,4 +17,4 @@ const HomeSection = () => {
   );
 };
 
-export default HomeSection;
+export default HomePage;
