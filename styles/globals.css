@@ -237,3 +237,91 @@
   @apply text-white text-[15px] pt-[15px] w-[80%] font-medium leading-[30px];
 }
 /*  Team Page  */
+.Partner-Brand-Section{
+  @apply h-screen bg-no-repeat bg-cover w-screen px-[10%] pt-[10%] text-white relative;
+  background-image: url("../public/img/Partner-Brand-BG.jpg");
+}
+.Partner-Brand-Section h2 {
+  @apply text-[68px] font-extralight w-[25%] leading-[70px];
+}
+.Partner-Brand-Section .Second-div {
+  @apply flex gap-10 justify-start items-start;
+}
+.Partner-Brand-Section .Second-div h3 {
+  @apply text-[170px] font-thin leading-[150px];
+}
+.Partner-Brand-Section .Second-div p {
+  @apply text-[15px] w-[250px] pt-[17px] leading-7;
+}
+
+.Our-Partner-Section {
+  @apply h-screen w-full flex;
+}
+.Our-Partner-Section .Text-Box {
+  @apply bg-[#33806e] pl-[5%] py-[10%] flex flex-col justify-center w-1/2;
+}
+.Our-Partner-Section .Text-Box h4 {
+  @apply text-white text-[48px] pt-[15px] w-[45%] font-extralight leading-[60px];
+}
+.Our-Partner-Section .Text-Box p {
+  @apply text-white text-[15px] pt-[15px] w-[45%] font-medium leading-[30px];
+}
+
+.Our-Brand-Section {
+  @apply h-screen w-full flex relative;
+}
+.Our-Brand-Section .Text-Box {
+  @apply bg-[#33806e] pl-[15%] py-[10%] pt-[15%] flex flex-col justify-center w-[50%];
+}
+.Our-Brand-Section .Text-Box .heading {
+  @apply text-white text-[48px] pt-[15px] w-[50%] font-extralight leading-[60px];
+}
+.Our-Brand-Section .Text-Box > p {
+  @apply text-white text-[15px] pt-[15px] w-[60%] font-medium leading-[30px];
+}
+.Second-Text-Box h5{
+  @apply text-[24px] text-white pt-[5%];
+}
+.Second-Text-Box h3{
+  @apply text-[40px] text-white font-light;
+}
+.Second-Text-Box p{
+  @apply text-[15px] text-white font-medium;
+}
+
+.Career-Section{
+  @apply h-screen bg-no-repeat bg-cover w-screen px-[10%] pt-[10%] text-white relative;
+  background-image: url("../public/img/Career-BG.jpg");
+}
+.Career-Section h2 {
+  @apply text-[68px] font-extralight w-[25%] leading-[70px];
+}
+.Career-Section .Second-div {
+  @apply flex gap-10 justify-start items-start;
+}
+.Career-Section .Second-div h3 {
+  @apply text-[170px] font-thin leading-[150px];
+}
+.Career-Section .Second-div p {
+  @apply text-[15px] w-[280px] pt-[17px] leading-7;
+}
+
+.Our-Culture-Section {
+  @apply h-screen w-full flex;
+}
+.Our-Culture-Section .Text-Box {
+  @apply bg-[#33806e] pl-[5%] py-[10%] flex flex-col justify-center w-[75%];
+}
+.Our-Culture-Section .Text-Box h4 {
+  @apply text-white text-[48px] pt-[15px] w-[45%] font-extralight leading-[60px];
+}
+.Our-Culture-Section .Text-Box > p {
+  @apply text-white text-[15px] pt-[15px] w-[70%] font-medium leading-[20px];
+}
+.Our-Culture-Section .Icons-Section{
+  @apply grid w-[70%] justify-items-start text-[#fff] text-[14px] gap-5 pt-[5%];
+  grid-template-columns: 30% 30% 30%;
+}
+.Icons-Section .Icon-Image{
+  @apply h-[50px] w-[50px];
+}

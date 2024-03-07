@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from './Components/Layout'
-import Section from './Components/Section'
+import AllPages from './Components/AllPages'
 import Header from './Components/Header'
 import { Montserrat } from 'next/font/google'
  
@@ -12,7 +12,7 @@ const index = () => {
     // <Layout>
     <div className={`${montserrat.className}`}>
       <Header />
-      <Section />
+      <AllPages />
     </div>
     /* </Layout>  */
   )

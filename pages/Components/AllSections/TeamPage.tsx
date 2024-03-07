@@ -4,6 +4,7 @@ import Image from "next/image";
 import DiamondOne from '@/public/img/Diamond-1.png';
 import Prisma from '@/public/img/prisma-kantoortuin.png';
 import TeamImage from "@/public/img/workspace-1.jpg";
+import CelebratingImage from "@/public/img/Celebrating-BG.jpg"
 
 const TeamPage = () => {
   const [currentSection, setCurrentSection] = useState(1);
@@ -97,7 +98,7 @@ const TeamPage = () => {
               </div>
               <div className="w-full">
                 <Image
-                  src={TeamImage}
+                  src={CelebratingImage}
                   alt="Background-Image"
                   className="h-screen w-full"
                 />

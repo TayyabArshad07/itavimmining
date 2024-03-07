@@ -75,8 +75,8 @@ const WWeDoPage = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur quo ea! Sunt inventore quo deserunt neque aliquid. Nemo dolorum natus, est vel nulla ipsum hic iusto eaque assumenda earum in laudantium numquam debitis voluptatem commodi vitae magni maxime ab a inventore nobis
                 </p>
               </div>
-              <div className="absolute top-[30%] right-[10%]">
-                <Image src={DiamondOne} alt="" />
+              <div className="absolute bottom-[0%] left-[30%]">
+                <Image src={DiamondOne} alt="" className="h-full w-full opacity-30 select-none" />
               </div>
             </section>
           </div>
