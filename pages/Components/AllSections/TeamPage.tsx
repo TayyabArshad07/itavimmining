@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { FaAngleRight, FaAngleLeft } from "react-icons/fa6";
 import Image from "next/image";
 import DiamondOne from '@/public/img/Diamond-1.png';
-import Prisma from '@/public/img/prisma-kantoortuin.png';
-import TeamImage from "@/public/img/workspace-1.jpg";
+import ExpertTeamImage from "@/public/img/Expert-Team-BG.jpg";
 import CelebratingImage from "@/public/img/Celebrating-BG.jpg"
 
 const TeamPage = () => {
@@ -69,7 +68,7 @@ const TeamPage = () => {
           <section className="Expert-Team-Section">
               <div className="w-1/2">
                 <Image
-                  src={TeamImage}
+                  src={ExpertTeamImage}
                   alt="Background-Image"
                   className="h-screen w-full"
                 />
