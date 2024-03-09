@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 * {
   @apply m-0 p-0 box-border;
 }
@@ -145,7 +143,7 @@
 
 /*  What-We-Do Page  */
 /*  WhatWeDo-Section  */
-.WWeDo-Section{
+.WWeDo-Section {
   @apply h-screen w-screen bg-[#33245d] px-[10%] pt-[10%] text-white relative;
 }
 .WWeDo-Section h2 {
@@ -162,38 +160,38 @@
 }
 /*  WhatWeDo-Section  */
 /*  Search Section  */
-.Search-Section{
+.Search-Section {
   @apply h-screen w-screen bg-[#33245d] px-[10%] pt-[10%] text-white relative;
 }
-.Search-Section .Text-Box{
+.Search-Section .Text-Box {
   @apply pl-[10%] flex flex-col justify-center w-[40%];
 }
-.Search-Section .Text-Box h4{
+.Search-Section .Text-Box h4 {
   @apply text-white text-[48px] pt-[15px] w-[70%] font-extralight leading-[60px];
 }
-.Search-Section .Text-Box p{
+.Search-Section .Text-Box p {
   @apply text-white text-[15px] pt-[15px] w-[90%] font-medium leading-[30px];
 }
 /*  Search Section  */
 /*  Display-Search Page  */
-.Display-Search-Section{
+.Display-Search-Section {
   @apply h-screen w-screen bg-[#33245d] px-[10%] text-white flex items-center gap-[10%];
 }
-.Display-Search-Section .Text-Box{
+.Display-Search-Section .Text-Box {
   @apply flex flex-col justify-center w-[30%];
 }
-.Display-Search-Section .Text-Box h4{
+.Display-Search-Section .Text-Box h4 {
   @apply text-white text-[48px] pt-[15px] w-[70%] font-extralight leading-[60px];
 }
-.Display-Search-Section .Text-Box p{
+.Display-Search-Section .Text-Box p {
   @apply text-white text-[15px] pt-[15px] w-[90%] font-medium leading-[30px];
 }
 /*  Display-Search Page  */
 /*  What-We-Do Page  */
 
 /*  Team Page  */
-/* Team-Work Section  */
-.TeamWork-Section{
+/*  Team-Work Section  */
+.TeamWork-Section {
   @apply h-screen bg-no-repeat bg-cover w-screen px-[10%] pt-[10%] text-white relative;
   background-image: url("../public/img/BackgroundImage-1.jpg");
 }
@@ -209,8 +207,8 @@
 .TeamWork-Section .Second-div p {
   @apply text-[15px] w-[250px] pt-[17px] leading-7;
 }
-/* Team-Work Section  */
-/* #37719f */
+/*  Team-Work Section  */
+/*  Expert-Team Section  */
 .Expert-Team-Section {
   @apply h-screen w-full flex;
 }
@@ -223,7 +221,8 @@
 .Expert-Team-Section .Text-Box p {
   @apply text-white text-[15px] pt-[15px] w-[45%] font-medium leading-[30px];
 }
-
+/*  Expert-Team Section  */
+/*  Celebrating-Section */
 .Celebrating-Section {
   @apply h-screen w-full flex relative;
 }
@@ -236,8 +235,11 @@
 .Celebrating-Section .Text-Box p {
   @apply text-white text-[15px] pt-[15px] w-[80%] font-medium leading-[30px];
 }
+/*  Celebrating-Section */
 /*  Team Page  */
-.Partner-Brand-Section{
+/* Partner-Brand Page  */
+/*  Partner-Brand-Section */
+.Partner-Brand-Section {
   @apply h-screen bg-no-repeat bg-cover w-screen px-[10%] pt-[10%] text-white relative;
   background-image: url("../public/img/Partner-Brand-BG.jpg");
 }
@@ -253,7 +255,8 @@
 .Partner-Brand-Section .Second-div p {
   @apply text-[15px] w-[250px] pt-[17px] leading-7;
 }
-
+/*  Partner-Brand-Section */
+/*  Our-Partner Section */
 .Our-Partner-Section {
   @apply h-screen w-full flex;
 }
@@ -266,7 +269,8 @@
 .Our-Partner-Section .Text-Box p {
   @apply text-white text-[15px] pt-[15px] w-[45%] font-medium leading-[30px];
 }
-
+/*  Our-Partner Section */
+/*  Our-Brand Section */
 .Our-Brand-Section {
   @apply h-screen w-full flex relative;
 }
@@ -279,17 +283,18 @@
 .Our-Brand-Section .Text-Box > p {
   @apply text-white text-[15px] pt-[15px] w-[60%] font-medium leading-[30px];
 }
-.Second-Text-Box h5{
+.Our-Brand-Section .Second-Text-Box h5 {
   @apply text-[24px] text-white pt-[5%];
 }
-.Second-Text-Box h3{
+.Our-Brand-Section .Second-Text-Box h3 {
   @apply text-[40px] text-white font-light;
 }
-.Second-Text-Box p{
+.Our-Brand-Section .Second-Text-Box p {
   @apply text-[15px] text-white font-medium;
 }
-
-.Career-Section{
+/*  Our-Brand Section */
+/*  Career-Section  */
+.Career-Section {
   @apply h-screen bg-no-repeat bg-cover w-screen px-[10%] pt-[10%] text-white relative;
   background-image: url("../public/img/Career-BG.jpg");
 }
@@ -305,7 +310,8 @@
 .Career-Section .Second-div p {
   @apply text-[15px] w-[280px] pt-[17px] leading-7;
 }
-
+/*  Career-Section  */
+/*  Our-Culture Section  */
 .Our-Culture-Section {
   @apply h-screen w-full flex;
 }
@@ -318,10 +324,91 @@
 .Our-Culture-Section .Text-Box > p {
   @apply text-white text-[15px] pt-[15px] w-[70%] font-medium leading-[20px];
 }
-.Our-Culture-Section .Icons-Section{
+.Our-Culture-Section .Icons-Section {
   @apply grid w-[70%] justify-items-start text-[#fff] text-[14px] gap-5 pt-[5%];
   grid-template-columns: 30% 30% 30%;
 }
-.Icons-Section .Icon-Image{
+.Icons-Section .Icon-Image {
   @apply h-[50px] w-[50px];
 }
+/*  Our-Culture Section  */
+/*  Contact Page  */
+/*  Contact Section  */
+.Contact-Section {
+  @apply h-screen bg-no-repeat bg-cover w-screen px-[10%] pt-[10%] text-white relative;
+  background: linear-gradient(to right, #d91820, #f15a24) no-repeat;
+}
+.Contact-Section .Text-Box {
+  @apply absolute bottom-[10%] z-40;
+}
+.Contact-Section h2 {
+  @apply text-[68px] font-extralight w-[25%] leading-[70px];
+}
+.Contact-Section .Second-div {
+  @apply flex gap-10 justify-start items-start flex-wrap;
+}
+.Contact-Section .Second-div h3 {
+  @apply text-[170px] font-thin leading-[150px];
+}
+.Contact-Section .Second-div p {
+  @apply text-[15px] w-[250px] pt-[17px] leading-7;
+}
+.Contact-Section .Image-Div {
+  @apply absolute bottom-[20%] left-[40%] w-full;
+}
+/*  Contact Section  */
+/*  Contact-Form Section  */
+.Contact-Form-Section {
+  @apply flex items-center justify-center pt-[8%];
+}
+.Contact-Form-Box {
+  @apply flex items-center shadow-md shadow-gray-500 w-[80%];
+}
+.Info-Div {
+  @apply w-[35%] py-[48px] px-[38px] h-[80vh] grid items-center;
+  background: linear-gradient(to right, #d91820, #f15a24) no-repeat;
+}
+.Info-Div > h4 {
+  @apply text-[28px] text-white font-medium;
+}
+.Info-Div > p {
+  @apply text-[16px] text-gray-100;
+}
+.Info-Div .Content {
+  @apply flex gap-5 items-start leading-7;
+}
+.Info-Div .Content .Icon-Div {
+  @apply border border-[#ffffff7a] rounded-full p-[10px];
+}
+.Info-Div .Content p {
+  @apply text-[16px] text-gray-100;
+}
+.Contact-Form {
+  @apply w-[70%] p-8 leading-10 text-[#f15a24];
+}
+.Contact-Form h4 {
+  @apply text-[28px] text-black font-medium;
+}
+.Contact-Form .Input-Div {
+  @apply w-full flex gap-5 justify-around;
+}
+.Contact-Form .Input-Div input {
+  @apply focus:border-orange-200 border-b border-gray-200 outline-none font-normal pr-[15px] pt-[10px] pb-[0px] w-1/2;
+}
+.Contact-Form > input {
+  @apply focus:border-orange-200 border-b border-gray-200 outline-none font-normal pr-[15px] pt-[10px] pb-[0px] w-full;
+}
+.Contact-Form > textarea {
+  @apply focus:border-orange-200 border-b border-gray-200 outline-none font-normal w-full pr-[15px] pt-[10px] pb-[0px];
+}
+
+.Contact-Form-Section button {
+  @apply text-white font-medium rounded-md px-[15px] py-[3px] shadow-md shadow-gray-400;
+  background: linear-gradient(to top, #d91820, #f15a24) no-repeat;
+}
+.Contact-Form-Section button:hover {
+  @apply transition-all ease-in-out duration-1000;
+  background: linear-gradient(to bottom, #d91820, #f15a24) no-repeat;
+}
+/*  Contact-Form Section  */
+/*  Contact Page  */
