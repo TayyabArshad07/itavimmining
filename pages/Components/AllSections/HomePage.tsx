@@ -5,7 +5,7 @@ import Prisma from '@/public/img/prisma-kantoortuin.png'
 
 const HomePage = () => {
   return (
-    <section className="Home-Section">
+    <section className="Home-Section" id="HomePage">
       <div className="heading">
         <h2>magic inside</h2>
         <p>The invisible power behind valuable connections.</p>

@@ -11,6 +11,31 @@
   --Background-color: #2b2d31;
 }
 
+/*  Header  */
+.Header {
+  @apply flex fixed items-center justify-between w-full px-[10%] bg-none z-[100000000000];
+}
+.Drop-Navbar {
+  @apply fixed flex justify-between py-[150px] h-screen px-[10%] overflow-hidden right-0 z-[100000000] w-full text-[var(--primary-color)];
+  background: linear-gradient(to right, #d91820, #f15a24) no-repeat;
+  
+}
+.Drop-Navbar .Buttons {
+  @apply flex gap-5 text-[40px] font-extralight text-white list-none min-[1900px]:text-[60px];
+}
+.Drop-Navbar .Header-Info{
+  @apply pr-[10%] pt-[20px] font-normal text-white text-[18px] min-[1900px]:text-[28px];
+}
+.Drop-Navbar .Header-Info .Social-Div{
+  @apply flex gap-3 items-center pt-[20px] max-[1024px]:flex-wrap;
+}
+.Header-Info .Social-Div h4{
+  @apply font-normal text-white text-[18px] min-[1900px]:text-[28px];
+}
+.Header-Info .Social-Div .Icons{
+  @apply text-[20px] min-[1900px]:text-[32px];
+}
+/*  Header  */
 /*  Slider-Section  */
 .Progress-Bar {
   @apply bg-white w-[100%] absolute;
@@ -213,13 +238,13 @@
   @apply h-screen w-full flex;
 }
 .Expert-Team-Section .Text-Box {
-  @apply bg-[#37719f] pl-[5%] py-[10%] flex flex-col justify-center w-[50%];
+  @apply bg-[#37719f] pl-[3%] py-[10%] flex flex-col justify-center w-[50%];
 }
 .Expert-Team-Section .Text-Box h4 {
   @apply text-white text-[48px] pt-[15px] w-[45%] font-extralight leading-[60px];
 }
 .Expert-Team-Section .Text-Box p {
-  @apply text-white text-[15px] pt-[15px] w-[45%] font-medium leading-[30px];
+  @apply text-white text-[15px] pt-[15px] w-[40%] font-medium leading-[30px];
 }
 /*  Expert-Team Section  */
 /*  Celebrating-Section */
@@ -267,7 +292,7 @@
   @apply text-white text-[48px] pt-[15px] w-[45%] font-extralight leading-[60px];
 }
 .Our-Partner-Section .Text-Box p {
-  @apply text-white text-[15px] pt-[15px] w-[45%] font-medium leading-[30px];
+  @apply text-white text-[15px] pt-[15px] w-[40%] font-medium leading-[30px];
 }
 /*  Our-Partner Section */
 /*  Our-Brand Section */

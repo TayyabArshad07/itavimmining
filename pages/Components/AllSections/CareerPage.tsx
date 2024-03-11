@@ -35,7 +35,7 @@ const CareerPage = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" id="CareerPage">
       <div className="Side-Nav">
         <div className="Uper-div">
           <h3>.06</h3>

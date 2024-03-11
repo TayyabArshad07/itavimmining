@@ -31,7 +31,7 @@ const TeamPage = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" id="TeamPage">
       <div className="Side-Nav">
         <div className="Uper-div">
           <h3>.04</h3>
@@ -76,10 +76,10 @@ const TeamPage = () => {
               <div className="Text-Box">
                 <h4>expert teams</h4>
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quod nesciunt blanditiis sit libero numquam eveniet eum corporis doloremque saepe.
+                  Lorem, ipsum dolor blanditiis adipisicing elit. Deleniti quod libero numquam eveniet eum corporis doloremque saepe.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt veniam quidem ad? Harum eveniet quae quidem obcaecati, culpa iste repellat?
+                  Lorem ipsum dolor sit,  adipisicing elit. Incidunt ad? Harum eveniet quae quidem obcaecati, culpa iste repellat?
                 </p>
               </div>
             </section>

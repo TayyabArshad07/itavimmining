@@ -5,7 +5,7 @@ import DiamondImage from "@/public/img/Diamond-1.png"
 
 const ContactPage = () => {
   return (
-    <section className="Contact-Section">
+    <section className="Contact-Section" id="ContactPage">
       <div className="Text-Box">
         <h2>contact</h2>
         <div className="Second-div">

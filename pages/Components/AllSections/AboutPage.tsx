@@ -34,7 +34,7 @@ const AboutPage = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" id="AboutPage">
       <div className="Side-Nav">
         <div className="Uper-div">
           <h3>.02</h3>

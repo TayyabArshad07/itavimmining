@@ -29,7 +29,7 @@ const PartnerBrandPage = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container"  id="PartnerBrandPage">
       <div className="Side-Nav">
         <div className="Uper-div">
           <h3>.05</h3>
@@ -76,14 +76,12 @@ const PartnerBrandPage = () => {
                 <h4>partners</h4>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore molestiae porro recusandae, facilis harum natus iusto
-                  illum accusantium nobis magnam incidunt sunt voluptates odit
+                  Tempore molestiae porro recusandae, magnam incidunt sunt voluptates odit
                   molestias officiis ea sapiente
                 </p>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-                  a pariatur accusantium. Voluptates quibusdam nulla aspernatur
-                  molestiae ipsam debitis, nihil et, earum non expedita optio.
+                  a pariatur accusantium. Voluptates quibusdam nulla.
                 </p>
               </div>
             </section>

@@ -30,7 +30,7 @@ const WWeDoPage = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="slider-container" id="WWeDoPage">
       <div className="Side-Nav">
         <div className="Uper-div">
           <h3>.03</h3>
